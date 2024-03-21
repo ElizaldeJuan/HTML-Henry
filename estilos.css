@@ -1,0 +1,62 @@
+.fondo {
+    background-color: #FFF8E7;
+}
+
+#titulo {
+    font-size: 3em;
+}
+
+#id_cosos{
+    width: fit-content;
+    display: flex;
+    gap: 1em;
+    margin-left: 1vw;
+}
+
+.cosos {
+    font-size: 1.5em;
+    border: 1px solid black;
+    width: fit-content;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cosos:hover {
+    background-color: black;
+    color: #FFF8E7;
+}
+
+#titulo2 {
+    font-size: 2.5em;
+}
+
+.subtitulos {
+    font-size: 2em;
+}
+
+.miTexto {
+    font-size: 1.5em;
+    color: red;
+}
+li {
+    color: darkgreen;
+}
+
+.imagen {
+    width: 200px;
+}
+
+#listas_container {
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
